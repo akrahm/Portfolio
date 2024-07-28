@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="bg-gray-800 text-white p-4">
-        <h1 className="text-5xl"><span className='text-red-800'>DEV</span>VIS</h1>
+        <h1 className="text-5xl"><span className='text-custom-color'>DEV</span><span>VIS</span></h1>
       </header>
       <main className="flex-grow p-4">
         {children}
